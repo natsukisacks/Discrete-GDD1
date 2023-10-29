@@ -1,5 +1,13 @@
 # Shortest Path Algorithms
+### Devlin Ih, Sohum Kothavade, Natsuki Sacks
+
 This repository contains all code files for the Discrete Math Group Deep Dive 1. Our group delved deeper into three of the most popular shortest-path algorithms: Dijkstra's, A*, and Bellman-Ford. 
+
+**Shortest path algorithm:** used in graph theory; finds the "shortest path" between two nodes/vertices, meaning that the sum of the weights of the edges are minimized.
+
+For our first Group Deep Dive (GDD), our group chose to further explore some of the well-known shortest path algorithms: **Dijkstra's, A-star (A*)**, and **Bellman-Ford.** We chose to focus on the code implementation and visualization of these algorithms. To cater to our varying learning goals and coding abilities, we each coded a separate algorithm and made some sort of visualization for it. Suki delved deeper into Dijkstra's, Devlin did A\*, and Sohum did Bellman-Ford.
+
+This repository introduces the reader to these three popular shortest path algorithms, assisting learning with the help of visualizations and real-life applications. To dive deeper into these algorithms and play around with the code implementations, explore each of the subfolders. 
 
 ## **1. Introducing the algorithms**
 ### **1.1 Dijkstra's Algorithm**
