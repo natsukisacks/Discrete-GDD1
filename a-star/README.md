@@ -112,8 +112,6 @@ install -r requirements.txt`
 
 ### References
 
-Last, FirstInit. Year. [Title](url). Source
-
 Boeing, G. 2017. [OSMnx: New Methods for Acquiring, Constructing, Analyzing,
 and Visualizing Complex Street
 Networks](https://geoffboeing.com/publications/osmnx-complex-street-networks/).
