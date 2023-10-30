@@ -270,7 +270,7 @@ def animate_astar(
         start_node: start node as a (y, x) tuple.
         dest_node: destination node as a (y, x) tuple.
         heuristic: Optional heuristic to use. If not specified, defaults
-            Cartesian distance between two nodes.
+            great circle distance between two nodes.
     """
 
     def draw():
@@ -314,7 +314,6 @@ def animate_astar(
     plt.savefig(fig_path)
 
 
-# Eventually put into main
 def animate_dijkstra(graph, boundaries_info, start_node, dest_node):
     animate_astar(
         graph,
