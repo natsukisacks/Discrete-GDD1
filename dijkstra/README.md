@@ -5,6 +5,8 @@ The most common use of Dijkstra's is finding the shortest path from the source t
 
 You can find the code implementation of Dijkstra's in `dijkstra.py`. This implementation can produce the shortest path to every node from the source or from a defined source to a defined target node. 
 
+`dijkstra_graphing.py`: Visualizes a given graph. 
+
 ## Overview of implementation
 Dijkstra's keeps track of a few things:
 
