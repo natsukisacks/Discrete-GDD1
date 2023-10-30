@@ -118,14 +118,7 @@ def print_result(previous_nodes, shortest_path, start_node, target_node):
 
 # Initialize nodes. This can be altered depending on the user.
 nodes = [
-    "New York",
-    "Tokyo",
-    "Cork",
-    "London",
-    "Rome",
-    "Berlin",
-    "Sicily",
-    "Athens",
+    "MD", "NJ", "CT", "NY", "RI", "MA", "DE"
 ]
 
 init_graph = {}
@@ -134,23 +127,23 @@ for node in nodes:
 
 # Instantiate the edges. These inputs can be
 # altered depending on what the user wants the graph to be of.
-init_graph["New York"]["Tokyo"] = 5
-init_graph["New York"]["London"] = 4
-init_graph["Tokyo"]["Berlin"] = 1
-init_graph["Tokyo"]["Cork"] = 3
-init_graph["Cork"]["Sicily"] = 5
-init_graph["Cork"]["Athens"] = 4
-init_graph["Athens"]["Sicily"] = 1
-init_graph["Rome"]["Berlin"] = 2
-init_graph["Rome"]["Athens"] = 2
+init_graph["MD"]["NJ"] = 3
+init_graph["NJ"]["RI"] = 6
+init_graph["MD"]["RI"] = 5
+init_graph["NJ"]["CT"] = 4
+init_graph["RI"]["NY"] = 1
+init_graph["NY"]["CT"] = 2
+init_graph["RI"]["MA"] = 8
+init_graph["MA"]["DE"] = 7
+init_graph["CT"]["DE"] = 3
 
 graph = Graph(nodes, init_graph)
 
 # If you change the graph, you must also change the start_node name accordingly.
-prev_nodes, shortest_path = dijkstra_algorithm(graph=graph, start_node="New York")
+prev_nodes, shortest_path = dijkstra_algorithm(graph=graph, start_node="MD")
 
 # Uncomment if you just want the shortest path to one node
-# print_result(prev_nodes, shortest_path, start_node="New York", target_node="Boston")
+# print_result(prev_nodes, shortest_path, start_node="MD", target_node="RI")
 
 for node in nodes:
-    print_result(prev_nodes, shortest_path, start_node="New York", target_node=node)
+    print_result(prev_nodes, shortest_path, start_node="MD", target_node=node)
