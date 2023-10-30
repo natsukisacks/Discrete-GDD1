@@ -63,8 +63,6 @@ G.add_weighted_edges_from(edges)
 # Visualization code...
 ```
 
-**Note:** You can add an example image of the graph here. This helps in better understanding how the graph looks after plotting.
-
 ### Sequence Diagram for Function Calls
 
 ```mermaid
@@ -108,5 +106,8 @@ To run the Bellman-Ford algorithm:
 ## Conclusion
 
 The Bellman-Ford algorithm is a versatile tool in the realm of graph algorithms, crucial for understanding complex networked systems and their behaviors.
+
+## Sources
+1. https://brilliant.org/wiki/bellman-ford-algorithm/
 
 ---
