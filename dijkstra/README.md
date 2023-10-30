@@ -3,7 +3,7 @@ Dijkstra's shortest-path algorithm can be implemented in many ways. For example,
 
 The most common use of Dijkstra's is finding the shortest path from the source to all nodes, producing a shortest-path tree. This notebook will delve deeper into this specific implementation. 
 
-You can find the code implementation of Dijkstra's in `dijkstra.py`. 
+You can find the code implementation of Dijkstra's in `dijkstra.py`. This implementation can produce the shortest path to every node from the source or from a defined source to a defined target node. 
 
 ## Overview of implementation
 Dijkstra's keeps track of a few things:
