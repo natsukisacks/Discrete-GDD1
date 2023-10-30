@@ -43,7 +43,7 @@ let distance from current = current distance + weight of current edge if distanc
 The following is a walkthrough of the algorithm described below, using arbitrary times for driving between states in the Northeast. 
 
 ### Dijkstra's Algorithm Example
-To make it easier to understand, let's walk through what Dijkstra's algorithm does on a graph.
+To make it easier to understand, let's walk through what Dijkstra's algorithm does on a graph. Although this implementation is kind of drawn-out, I think it's helpful to see the step-by-step process. 
 
 **Original Graph**
 
