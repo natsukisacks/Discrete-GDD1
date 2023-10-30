@@ -6,36 +6,26 @@ import networkx as nx
 G = nx.Graph()
 
 # Adding nodes (locations)
-nodes = [
-    "New York",
-    "Tokyo",
-    "Cork",
-    "London",
-    "Rome",
-    "Berlin",
-    "Sicily",
-    "Athens",
-]
+nodes = ["MD", "NJ", "CT", "NY", "RI", "MA", "DE"]
 G.add_nodes_from(nodes)
 
 # Adding edges with weights (paths and their costs)
 edges = [
-    ("New York", "Tokyo", 5),
-    ("New York", "London", 4),
-    ("Tokyo", "Berlin", 1),
-    ("Tokyo", "Cork", 3),
-    ("Cork", "Sicily", 5),
-    ("Cork", "Athens", 4),
-    ("Athens", "Sicily", 1),
-    ("Rome", "Berlin", 2),
-    ("Rome", "Athens", 2),
+    ("MD", "NJ", 3),
+    ("NJ", "RI", 6),
+    ("MD", "RI", 5),
+    ("NJ", "CT", 4),
+    ("RI", "NY", 1),
+    ("NY", "CT", 2),
+    ("RI", "MA", 8),
+    ("MA", "DE", 7),
+    ("CT", "DE", 3),
 ]
 
 G.add_weighted_edges_from(edges)
 
 color_map = [
     "green",
-    "lightblue",
     "lightblue",
     "lightblue",
     "lightblue",
