@@ -149,5 +149,8 @@ graph = Graph(nodes, init_graph)
 # If you change the graph, you must also change the start_node name accordingly.
 prev_nodes, shortest_path = dijkstra_algorithm(graph=graph, start_node="New York")
 
+# Uncomment if you just want the shortest path to one node
+# print_result(prev_nodes, shortest_path, start_node="New York", target_node="Boston")
+
 for node in nodes:
     print_result(prev_nodes, shortest_path, start_node="New York", target_node=node)
