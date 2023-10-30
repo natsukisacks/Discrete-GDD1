@@ -1,4 +1,4 @@
-# Introduction
+# Introduction to Dijkstra's Algorithm
 Dijkstra's shortest-path algorithm can be implemented in many ways. For example, it could find the shortest path from a source node to all nodes or find the shortest path from a defined source node to a target node.
 
 The most common use of Dijkstra's is finding the shortest path from the source to all nodes, producing a shortest-path tree. This notebook will delve deeper into this specific implementation. 
