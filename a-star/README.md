@@ -21,7 +21,7 @@ known path from the start node. In A\*, pick the node with the smallest sum of
 the known distance from the start node to the estimated distance:
 
 $$
-\text{min}\left(\{\text(distance)(start, v) + h(v) | v \in V \} \right)
+\text{min}\left(\{\text{distance}(start, v) + h(v) | v \in V \} \right)
 $$
 
 Once we select a node, we process it in the same way as Dijkstra's algorithm:
