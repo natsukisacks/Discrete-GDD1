@@ -85,8 +85,8 @@ branching out in all directions it is biased in the direction it needs to head.
 Unfortunately, A\* is not always applicable, because in some systems there is
 no way to estimate the how far a node is from a destination node.
 
-A visualization of Dijkstra's vs A\* walking from Olin College's East Hall to
-Babson College's Olin Hall:
+A visualization of A\* (top) vs Dijkstra's (bottom) walking from Olin College's
+East Hall to Babson College's Olin Hall:
 
 ![Walking from East Hall (Olin) to Olin Hall (Babson), A*](./img/olin-a-star.gif)
 ![Walking from East Hall (Olin) to Olin Hall (Babson), Dijkstra](./img/olin-dijkstra.gif)
